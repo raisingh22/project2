@@ -1,0 +1,54 @@
+Arguments: 
+  D:\game\node js\node.exe D:\game\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\game\Git\cmd;D:\game\node js\;D:\game\bin\;D:\game\sdk\platform-tools;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;D:\game\Microsoft VS Code\bin;D:\game\PyCharm 2022.2\bin;;C:\Program Files\JetBrains\WebStorm 2022.3\bin;;C:\Users\smile\AppData\Local\GitHubDesktop\bin;C:\Users\smile\AppData\Roaming\npm;C:\Users\smile\AppData\Local\Yarn\bin;C:\Users\smile\AppData\Local\Android\Sdk\platform-tools;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/expo: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy
+      at ClientRequest.onError (D:\game\lib\cli.js:152376:17)
+      at Object.onceWrapper (node:events:628:26)
+      at ClientRequest.emit (node:events:513:28)
+      at Socket.socketErrorListener (node:_http_client:496:9)
+      at Socket.emit (node:events:513:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "codeclass",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~47.0.12",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
